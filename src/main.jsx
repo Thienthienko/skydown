@@ -12,7 +12,6 @@ import SignUp from "./pages/SignUp";
 import Contact from "./pages/Contact";
 import NavbarToggle from "./component/navbar/NavbarToggle";
 import Footer from "./component/footer/Footer";
-import Animation from "./component/animation/Animation";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +19,6 @@ const router = createBrowserRouter([
     element: (
       <>
         <main>
-          <Animation />
           <NavbarToggle />
           <Home />
           <Footer />
